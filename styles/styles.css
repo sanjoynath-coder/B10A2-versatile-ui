@@ -444,7 +444,7 @@ th , td{
     width:310px;
     height: 30px;
     font-size: 0.875rem;
-border:1px solid #ffffff33;
+/* border:1px solid #ffffff33; */
 }
 td{
 padding-left: 10px;
@@ -514,6 +514,106 @@ form{
     cursor: pointer;
     margin-top: 50px;
 
+}
+
+/* meet our team section start here */
+.meet-team-container{
+width:1060px;
+height:780px;
+/* border:1px solid red; */
+margin:0 auto;
+margin-top:85px;
+text-align: center;
+}
+.meet-team-text-container{
+width: 670px;
+height: 120px;
+text-align: center;
+/* border:1px solid ghostwhite; */
+margin:0 auto;
+margin-bottom: 30px;
+}
+.meet-team-title{
+font-size: 3rem;
+font-weight: 600;
+margin:0;
+}
+.meet-team-deacription{
+font-size: 0.875rem;
+font-weight: 400;
+margin:0;
+margin-top: 15px;
+}
+.meet-team-image-container{
+    width: 1060px;
+    height: 570px;
+    /* border:1px solid rebeccapurple; */
+    background: #1e1d1d;
+    border-radius: 20px;
+}
+.meet-team-card-container{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:20px;
+    padding:20px;
+    border-radius: 20px;
+}
+.team-img1{
+    height: 250px;
+    background: linear-gradient(rgba(0, 0, 0, 0.178) , rgba(0, 0, 0, 0.145)), url(../images/trainer1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+.team-img2{
+    height: 250px;
+    background: linear-gradient(rgba(0, 0, 0, 0.178) , rgba(0, 0, 0, 0.145)), url(../images/trainer2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+.team-img3{
+    height: 250px;
+    background: linear-gradient(rgba(0, 0, 0, 0.178) , rgba(0, 0, 0, 0.145)), url(../images/trainer3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+.team-img4{
+    height: 250px;
+    background: linear-gradient(rgba(0, 0, 0, 0.178) , rgba(0, 0, 0, 0.145)), url(../images/trainer4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+.team-img5{
+    height: 250px;
+    background: linear-gradient(rgba(0, 0, 0, 0.178) , rgba(0, 0, 0, 0.145)), url(../images/trainer5.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+.team-img6{
+    height: 250px;
+    background: linear-gradient(rgba(0, 0, 0, 0.178) , rgba(0, 0, 0, 0.145)), url(../images/trainer6.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}.trainer-name{
+    color:wheat;
+    margin:200px 0 0 20px;
+    text-align: left;
+}
+.triainer-description{
+    text-align: left;
+    margin-left:20px;
+    
 }
 /* Responsive media query  start here */
 
