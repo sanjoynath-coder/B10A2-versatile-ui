@@ -5,16 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fitness</title>
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
 <body>
     <!-- top up button -->
-     <div class="top-btn">
-        <a href="#header">
-            <span class="child-one"></span>
-            <span class="child-tow"></span>
-            <span class="child-three"></span>
-        </a>
-     </div>
+     
     <!-- navber section staer here -->
     <header class="header">
         <nav class="navbar display-flex">
@@ -25,13 +21,12 @@
                 <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
                 <li class="nav-item"><a href="" class="nav-link">About</a></li>
             </ul>
+            <div class="hambarger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
         </nav>
-<div class="togglebar">
-    <spen class="toggle-one"></spen>
-    <spen class="toggle-tow"></spen>
-    <spen class="toggle-three"></spen>
-    <spen class="toggle-four"></spen>
-</div>
+        <!-- banner section start here -->
+
         <section class="banner-container display-flex">
             <div class="banner-text-container">
                 <h1 class="banner-title">Get body in <span class="font-style">shape</span> & stay healthy</h1>
@@ -42,58 +37,59 @@
             </div>
             <div class="banner-image-container">
                 <img src="./images/Images 2.png" alt="png">
+                <div class="first-box-container">
+                    <div class="ball-title">
+                        <p class="ball"></p>
+                    </div>
+                    <div class="box-container">
+                        <p class="box-title">350+</p>
+                        <p class="description description-color">Video tutorial</p>
+                    </div>
+                </div>
+                <div class="second-box-container">
+                    <p class="second-box-title">500+</p>
+                    <p class="second-description description-color">Free Workout Video</p>
+                </div>
             </div>
 
-            <div class="first-box-container">
-                <div class="ball-title">
-                    <p class="ball"></p>
-                </div>
-                <div class="box-container">
-                    <p class="box-title">350+</p>
-                    <p class="description description-color">Video tutorial</p>
-                </div>
-            </div>
-            <div class="second-box-container">
-                <p class="second-box-title">500+</p>
-                <p class="second-description description-color">Free Workout Video</p>
-            </div>
         </section>
     </header>
     <main>
         <!--Change habit section start here -->
-        <section class="habit-text-container">
+        <section class="habit-container">
+           <div class="habit-text-container">
             <h2 class="habit-title">Change Your Habits</h2>
             <p class="habit-description description-color">Start small with achievable goals, set a consistent schedule,
                 track your progress, and find a workout you enjoy to make gym visits a sustainable and rewarding habit.
             </p>
-        </section>
-        <section class="habit-image-container">
-            <div class="image">
-                <img src="images/image 3.png" alt="" class="habit-image">
+           </div>
+           <div class="habit-item">
+            <div class="img">
+                <img src="./images/image 3.png" alt="" class="habit-img">
                 <p class="habit-img-title">Movement</p>
-                <p class="habit-img-description description-color">Fitness movement promotes active, healthy lifestyles
+                <p class="habit-img-description description-color">Fitness movement promotes active, healthy lifestyles <br>
                     through exercise and wellness.</p>
             </div>
-            <div class="image">
-                <img src="images/image 2.png" alt="" class="habit-image">
+            <div class="img">
+                <img src="./images/image 2.png" alt="" class="habit-img">
                 <p class="habit-img-title">Time</p>
-                <p class="habit-img-description description-color">
-                    Fitness time enhances health, reduces stress, and boosts overall well-being.</p>
+                <p class="habit-img-description description-color">Fitness time enhances health, reduces stress, <br> and boosts overall well-being.</p>
             </div>
-            <div class="image">
-                <img src="images/image 4.png" alt="" class="habit-image">
+            <div class="img">
+                <img src="./images/image 4.png" alt="" class="habit-img">
                 <p class="habit-img-title">Practice</p>
-                <p class="habit-img-description description-color">Fitness practice builds strength, improves endurance,
+                <p class="habit-img-description description-color">Fitness practice builds strength, improves endurance, <br>
                     and enhances mental health.</p>
             </div>
-            <div class="image">
-                <img src="images/image 5.png" alt="" class="habit-image">
-                <p class="habit-img-title">Weighr Loss</p>
-                <p class="habit-img-description description-color">Weight loss requires balanced diet, regular exercise,
+            <div class="img">
+                <img src="./images/image 5.png" alt="" class="habit-img">
+                <p class="habit-img-title">Weight Loss</p>
+                <p class="habit-img-description description-color">Weight loss requires balanced diet,  regular exercise, <br>
                     and consistent habits.</p>
             </div>
+           </div>
         </section>
-
+       
         <!-- run easy section start here -->
         <section class="run-easy-container">
             <div class="run-easy-text-container">
@@ -201,8 +197,30 @@
             </div>
          </section>
     </main>
-    <footer>
-
+    <footer class="footer-container">
+<div class="footer-three-container display-flex">
+<div class="left-footer-container">
+    <h2 class="left-footer-title">Fotness</h2>
+    <p class="left-footer-description description-color">Fitness is about maintaining a healthy body and mind <br> through regular exercise, balanced nutrition, and <br> adequate rest.  It improves strength, flexibility, endurance, <br> and  overall well-being, promoting a vibrant lifestyle.</p>
+</div>
+<div class="footer-middel-container">
+    <h3 class="middle-footer-title">Get Started</h3>
+    <a href="#">Service</a>
+    <a href="#">Contact Us</a>
+    <a href="#">Affiliate Program</a>
+    <a href="#">About Us</a>
+</div>
+<div class="last-footer-container">
+    <h3 class="last-footer-title">Get Started</h3>
+    <a href="#">Fitness</a>
+    <a href="#">Platform</a>
+    <a href="#">Workout Libary</a>
+    <a href="#">App Design</a>
+</div>
+</div>
+<div class="copy-right">
+    <p class="copy-right-text description-color">All right reserved @Fitness 2024</p>
+</div>
     </footer>
 </body>
 
