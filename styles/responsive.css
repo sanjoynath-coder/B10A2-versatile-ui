@@ -6,7 +6,6 @@
     margin: 0;
 
 }
-
 @media screen and (max-width:576px) {
 
     /* navbar section start here  */
@@ -94,6 +93,20 @@
         margin-top: 30px;
     }
 
+/* respinsive challange section */
+.healthy-frouit-container{
+    width:576px;
+    height:1800px;
+    position: relative;
+}
+.healthy-food-image-contaienr{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top:250px;
+    left:23%;
+}
+
     /* run easy resoinsive start here */
 
     .run-easy-container {
@@ -131,7 +144,7 @@
     }
 
     .bmi-calcu-container {
-        height: 840px;
+        height: 900px;
         display: flex;
         flex-direction: column;
         position: relative;

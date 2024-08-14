@@ -38,7 +38,7 @@ body {
 
 /* navbar releted styles */
 .header {
-width: 1400px;
+width:100%;
     /* border: 2px solid tomato; */
     margin: 0 auto;
     background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
@@ -84,14 +84,13 @@ width: 1400px;
 .nav-item {
     list-style: none;
     margin: 0 30px;
+    margin-top: 10px;
 }
 
 .nav-link {
     width: 90px;
-    height: 45px;
     font-size: 1.125rem;
     font-weight: 400;
-    padding: 12px 0;
     text-decoration: none;
     color: white;
 }
@@ -106,7 +105,7 @@ width: 1400px;
 /* banner section styles */
 
 .banner-container {
-    width: 1440px;
+    width:100%;
     justify-content: space-between;
 }
 
@@ -228,17 +227,71 @@ width: 1400px;
     margin: 0;
 }
 
+/* Challenge section start here */
+.healthy-frouit-container{
+width:1300px;
+height:600px;
+margin:0 auto;
+margin-top: 50px;
+border-radius: 20px;
+background: #2b2a2a;
+}
+.header-of-healthy-food{
+text-align:center;
+}
+.healthy-food-title{
+font-size:2.5rem;
+font-weight:800;
+margin-top:10px;
+
+}
+.healthy-food-description{
+font-size:1rem;
+font-weight:500;
+margin-top:20px;
+}
+.healthy-food-image-contaienr{
+margin:0 auto;
+justify-content: center;                                                
+align-items: center;
+}
+.healthy-food{
+height:350px;
+margin-top: 20px;
+margin-left: 30px;
+border-radius: 20px;
+background: #00000065;
+}
+.healthy-food img{
+display: block; 
+width:150px;
+height:150px;
+border-radius: 100%;
+margin:auto;
+margin-top:30px;
+}
+.food-name{
+text-align:center;
+font-size: 1.5rem;
+font-weight:800;
+margin-top:30px;
+}
+.food-details{
+text-align: center;
+font-size: 1rem;;
+color: #8C8C8C;
+font-weight: 400;
+margin-top:10px;
+}
 /* style Changr habit section */
 .habit-container {
     width: 1044px;
-    /* border:1px solid red; */
     margin: 0 auto;
 }
 
 .habit-text-container {
     text-align: center;
     width: 671px;
-    /* border: 2px solid slateblue; */
     margin: 0 auto;
     margin-top: 92px;
 }
@@ -258,7 +311,6 @@ width: 1400px;
 
 .habit-item {
     width: 1044px;
-    /* border: 1px solid yellow; */
     display: flex;
     justify-content: space-around;
     margin: 0 auto;
@@ -332,7 +384,6 @@ width: 1400px;
 }
 
 .run-easy-image-container {
-    /* border: 1px solid goldenrod; */
    width: 400px;
    width:auto;
 }
