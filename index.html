@@ -94,73 +94,75 @@
         <section class="run-easy-container">
             <div class="run-easy-text-container">
                 <h2 class="run-easy-title">Run an Extra <br> Mile Easily</h2>
-                <p class="run-easy-description description-color">Lorem ipsum dolor sit amet consectetur adipisicing
-                    elit. Quos excepturi voluptates tempora maiores veniam ipsa, eum aperiam ipsam sed optio, doloremque
-                    totam. Aliquid quis nesciunt iusto. Iusto aspernatur dicta ad?</p>
-                <a href=""><button class="run-easy-button">Join Now</button></a>
+                <p class="run-easy-description description-color">Running improves cardiovascular health, strengthens muscles and <br>bones, boosts mood, reduces stress, aids weight management,<br> enhances  sleep quality, and increases overall fitness and mental clarity.</p>
+                <div>
+                    <a href=""><button class="run-easy-button">Join Now</button></a>
+                </div>
             </div>
             <div class="run-easy-image-container">
-                <img src="images/run.jpg" alt="" class="run-easy-image">
+                <img src="./images/run.jpg" alt="" class="run-easy-image">
             </div>
         </section>
-        <!-- BMI section start here -->
-        <section class="bmi-calculator-text-container">
-            <h1 class="bmi-text-title">BMI Calculator</h1>
-            <p class="bmi-text-descriptiion description-color">Body mass index (BMI) is a value derived from the mass
-                (weight) and height of a person. The BMI is defined as the body mass divided by the square of the ...
-            </p>
-        </section>
-        <!-- BMI conrainer section start here -->
-        <section class="bmi-container display-flex">
-            <div class="BMI-chart-container">
-                <table>
-                    <h1 class="bmi-chart-title">BMI Calculator Chart</h1>
-                    <thead>
-                        <th>BMI</th>
-                        <th>Weight Status</th>
-                    </thead>
-                    <tbody>
-                    <tr class="description-color">
-                        <td>Below 18.5</td>
-                        <td>Underweight</td>
-                    </tr>
-                    <tr class="description-color">
-                        <td>18.5 - 24.9</td>
-                        <td>Healthy</td>
-                    </tr>
-                    <tr class="description-color">
-                        <td>25.0 - 29.9</td>
-                        <td>Overweight</td>
-                    </tr>
-                    <tr class="description-color">
-                        <td>30.0 - and Above</td>
-                        <td>Obese</td>
-                    </tr>
-                </tbody>
-                </table>
+
+        <!-- bmi copy section start here -->
+        <section class="bmi-header-container">
+            <div class="bmi-header">
+                <h2 class="bmi-tittle">BMI Calculator</h2>
+                <p class="bmi-description">
+                    BMI (Body Mass Index) measures body fat based on height and weight,<br> helping assess whether someone is underweight, normal, or overweight. </p>
             </div>
-            <div class="your-bmi-container">
-                <div class="your-bmi-text-container">
-                    <h2 class="your-bmi-title">Calculate your BMI</h2>
-                    <p class="your-bmi-description description-color">You can determine your BMI trought the form below</p>
+            <div class="bmi-calcu-container">
+                <div class="bmi-left-content">
+                    <table>
+                        <caption>BMI Calculator Chart</caption>
+                        <thead>
+                            <th>BMI</th>
+                            <th>Weight Status</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Below 18.5 </td>
+                                <td>Underweight</td> 
+                            </tr>
+                            <tr>
+                                <td>18.5 - 24.9</td> 
+                                <td>Healthy</td> 
+                            </tr>
+                            <tr>
+                                <td>25.0 - 29.9</td>
+                                <td>Overweight</td> 
+                            </tr>
+                            <tr>
+                                <td>30.0 - and Above</td> 
+                                <td>Obese</td> 
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
-                <form action="#">
-                <div class="your-bmi-form-container">
+                <div class="bmi-right-content">
+                    <h2 class="bmi-right-tittle">Calculate your BMI</h2>
+                    <p class="bmi-right-description">
+                        BMI (Body Mass Index) measures body fat based on height and weight,<br> helping assess whether someone is underweight, normal, or overweight.</p>
                     <form action="#">
-                       <div class="flex-input">
-                        <input type="number" name="height" id="height" placeholder="Height/cm">
-                        <input type="number" name="Weight" id="Weight" placeholder="Weight/kg">
-                       </div>  
+                        <div class="flex-input">
+                            <input type="number" name="height" id="height" placeholder="Height/cm">
+                            <input type="number" name="Weight" id="weight" placeholder="Weight/kg">
+                        </div>
+                        <div class="flex-input">
+                            <input type="number" name="age" id="age" placeholder="Age">
+                            <input type="text" name="sex" placeholder="Sex"> 
+                        </div>
+                        <input type="text" name="" id="seclect-activity" placeholder="Select an activity factor">
+                        <div class="form-btn">
+                            <input type="submit" value="Calculate">
+                        </div>
+                    </form>
                 </div>
-                <div class="flex-input">
-                    <input type="number" name="age" id="age" placeholder="Age">
-                    <input type="text" name="sex" placeholder="Sex">
-                </div>
-                <input type="text" name="" id="seclect-activity" placeholder="Select an activity factor">
-                <button class="form-btn">Calculate</button>
             </div>
-        </form>
         </section>
+        <!-- bmi section end here -->
+
+
         <!-- Meet our team section -->
          <section class="meet-team-container">
             <div class="meet-team-text-container">
@@ -197,31 +199,38 @@
             </div>
          </section>
     </main>
-    <footer class="footer-container">
-<div class="footer-three-container display-flex">
-<div class="left-footer-container">
-    <h2 class="left-footer-title">Fotness</h2>
-    <p class="left-footer-description description-color">Fitness is about maintaining a healthy body and mind <br> through regular exercise, balanced nutrition, and <br> adequate rest.  It improves strength, flexibility, endurance, <br> and  overall well-being, promoting a vibrant lifestyle.</p>
-</div>
-<div class="footer-middel-container">
-    <h3 class="middle-footer-title">Get Started</h3>
-    <a href="#">Service</a>
-    <a href="#">Contact Us</a>
-    <a href="#">Affiliate Program</a>
-    <a href="#">About Us</a>
-</div>
-<div class="last-footer-container">
-    <h3 class="last-footer-title">Get Started</h3>
-    <a href="#">Fitness</a>
-    <a href="#">Platform</a>
-    <a href="#">Workout Libary</a>
-    <a href="#">App Design</a>
-</div>
-</div>
-<div class="copy-right">
-    <p class="copy-right-text description-color">All right reserved @Fitness 2024</p>
-</div>
-    </footer>
+
+
+
+<!-- <Footer section start here -->
+
+    <footer class="footer-main-container">
+        <div class="inner-container">
+            <div class="footer-thre-card-container">
+                <div class="left-footer-content">
+                    <a class="left-footer-logo" href="#">Fitness</a>
+                    <p class="left-footer-description">Fitness is about maintaining a healthy body and mind <br> through regular exercise, balanced nutrition, and <br> adequate rest.  It improves strength, flexibility, endurance, <br> and  overall well-being, </p>
+                </div>
+                <div class="midel-footer-container">
+                    <h3 class="midel-footer-tittle">Get Started</h3>
+                    <a href="#">Service</a>
+                    <a href="#">Contact Us</a>
+                    <a href="#">Affiliate Program</a>
+                    <a href="#">About Us</a>
+                </div>
+                <div class="last-footer-content">
+                    <h3 class="last-footer-tittle midel-footer-tittle">Get Started</h3>
+                    <a href="#">Fitness</a>
+                    <a href="#">Platform</a>
+                    <a href="#">Workuot Libary</a>
+                    <a href="#">App Design</a>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right">
+            <p class="copy-right-messege">All right reserved @Fitness 2024</p>
+        </div>
+       </footer>
 </body>
 
 </html>
