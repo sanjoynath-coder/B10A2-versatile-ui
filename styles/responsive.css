@@ -7,7 +7,6 @@
 
 }
 @media screen and (max-width:576px) {
-
     /* navbar section start here  */
     .header {
         width: 576px;
@@ -72,7 +71,7 @@
 
     /* change your habit */
     .habit-container {
-        width: 576px;
+        width: 500px;
 
     }
 
@@ -199,7 +198,7 @@
     }
 
     #seclect-activity {
-        width: 50.50%;
+        width: 50%;
         height: 55px;
         margin: 10px;
     }
@@ -212,15 +211,15 @@
 
     /* responsive meet our secton */
     .meet-team-container {
-        width: 576px;
+        width: 500px;
     }
 
     .meet-team-text-container {
-        width: 576px;
+        width: 500px;
     }
 
     .meet-team-image-container {
-        width: 576px;
+        width: 500px;
         margin-top: 50px;
     }
 
@@ -231,32 +230,32 @@
     }
 
     .team-img1 {
-        width: 500px;
+        width: 400px;
         height: 400px;
     }
 
     .team-img2 {
-        width: 500px;
+        width: 400px;
         height: 400px;
     }
 
     .team-img3 {
-        width: 500px;
+        width: 400px;
         height: 400px;
     }
 
     .team-img4 {
-        width: 500px;
+        width: 400px;
         height: 400px;
     }
 
     .team-img5 {
-        width: 500px;
+        width: 400px;
         height: 400px;
     }
 
     .team-img6 {
-        width: 500px;
+        width: 400px;
         height: 400px;
     }
 
@@ -270,8 +269,8 @@
 
     /* responsive footer section */
     .footer-main-container {
-        height: 1100px;
-        width: 576px;
+        height: 1130px;
+        width: 576px;;
     }
 
     .inner-container {
